@@ -6,7 +6,9 @@
  */
 package practice13.ptra13;
 
-public class PTra13_02 {
+import practice13.common.Hero;
+
+public class PTra13_02  {
 
 	/*
 	 * ★ common.Characterクラスを継承した、common.Heroクラスを作成してください
@@ -15,12 +17,17 @@ public class PTra13_02 {
 
 	public static void main(String[] args) {
 		// ★ common.Heroクラスをインスンタンス化してください
+		Hero hero = new Hero();
 
 
 		// ★ common.Heroインスタンスのnameに"勇者"を設定して下さい
+		hero.setName("勇者");
 
 
 		// ★ common.Heroインスタンスのキャラクター情報を表示してください
+		String str = hero.showParameter();
+		System.out.println(str);
+
 
 	}
 }
