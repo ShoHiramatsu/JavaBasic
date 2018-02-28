@@ -10,11 +10,15 @@ import practice17.common.ThrowExceptionUtil;
 
 public class PTra17_01 {
 	public static void main(String[] args) {
+		try {
 
-		/*
-		 * ★ 以下のメソッドを呼び出すと例外が発生するため、例外処理を入れてください
-		 * 	※例外発生時には、「例外が発生しました」を出力してください
-		 */
-		ThrowExceptionUtil.nullToBlank(null);
+			/*
+			 * ★ 以下のメソッドを呼び出すと例外が発生するため、例外処理を入れてください
+			 * 	※例外発生時には、「例外が発生しました」を出力してください
+			 */
+			ThrowExceptionUtil.nullToBlank(null);
+		} catch (Exception e) {
+			System.out.println("例外が発生しました");
+		}
 	}
 }

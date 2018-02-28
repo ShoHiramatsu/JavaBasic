@@ -9,14 +9,14 @@ package practice16;
 public class PTra16_02 {
 	public static void main(String[] args) {
 
-		boolean b = true;
-		byte by = 100;
-		short s = 300;
-		char c = '日';
-		int i = 1000;
-		long l = 2000L;
-		float f = 3.14F;
-		double d = 453.592;
+		java.lang.Boolean b = true;
+		java.lang.Byte by = 100;
+		java.lang.Short s = 300;
+		java.lang.Character c = '日';
+		java.lang.Integer i = 1000;
+		java.lang.Long l = 2000L;
+		java.lang.Float f = 3.14F;
+		java.lang.Double d = 453.592;
 
 		// ★ 上記基本型を、それぞれのラッパークラスに代入してください
 	}
