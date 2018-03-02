@@ -9,18 +9,15 @@ package practice02;
 public class PTra02_02 {
 	public static void main(String[] args) {
 		int num = 10;
-		System.out.println(num);
 
 		// ★ 変数numの値に30足した数を出力してください
-		int i = 30;
-		System.out.println(num+i);
-
+		System.out.println(num + 30);
 
 		// ★ 以下のプログラムで40が出力されるようにしてください
-		
-		num+=30;
-		
-		System.out.println(num);	// ※※ この行は修正しないでください
-		
+
+		num += 30;
+
+		System.out.println(num); // ※※ この行は修正しないでください
+
 	}
 }

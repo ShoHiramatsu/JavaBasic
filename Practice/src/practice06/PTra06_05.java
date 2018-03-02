@@ -20,8 +20,8 @@ public class PTra06_05 {
 		 * ■■■■■
 		 */
 
-		for(int i= 0;i<5;i++) {
-			for(int r=0;r<5;r++) {
+		for (int i = 0; i < 5; i++) {
+			for (int r = 0; r < 5; r++) {
 				System.out.print("■");
 			}
 

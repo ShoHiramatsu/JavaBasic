@@ -33,15 +33,20 @@ public class PTra03_05 {
 		 * ※ ただし、入力された値が100より大きく、0未満の場合は、「不正な値が入力されました」を出力してください
 		 * ※ プログラムは何行書いても良いです
 		 */
-		if(num>=75&&num<=100) {
-			System.out.println("雨が降る確率が高いです");
-		}else if(num<=74&&num>=30) {
-			System.out.println("雨が振るかもしれないです");
-		}else if(num<=30&&num>=0) {
-			System.out.println("雨はまず降らないでしょう");
-		}else if(num>=100||num<=0){
+		if (num > 100 || num < 0) {
+			// 入力された値が100より大きく、0未満の場合
 			System.out.println("不正な値が入力されました");
+		} else if (num >= 75) {
+			// 変数numの値が75以上
+			System.out.println("雨が降る確率が高いです");
+		} else if (num >= 30) {
+			// 変数numの値が30以上
+			// 		※ 75以上の場合は上の条件に入るので、省略して問題なし
+			System.out.println("雨が振るかもしれないです");
+		} else {
+			// 変数numの値が30未満
+			//		※ 上のいずれにも入らない値（0～29）となるので、elseで問題なし
+			System.out.println("雨はまず降らないでしょう");
 		}
-
 	}
 }

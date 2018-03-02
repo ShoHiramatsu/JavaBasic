@@ -13,7 +13,6 @@ public class PTra05_01 {
 		// ★ int型の変数numを宣言し、5で初期化してください
 		int num = 5;
 
-
 		/*
 		 *  ★ 以下の仕様で、switch文を記述してください
 		 *
@@ -25,7 +24,7 @@ public class PTra05_01 {
 		 *  ●numが0だった場合			->	「前の単元を復習してください」
 		 *  ●numが0～5以外だった場合	->	「正しい数値を入れてください」
 		 */
-		switch(num){
+		switch (num) {
 		case 5:
 			System.out.println("満点");
 			break;
@@ -44,7 +43,7 @@ public class PTra05_01 {
 		default:
 			System.out.println("正しい数値を入れてください");
 			break;
-		
+
 		}
 
 	}

@@ -11,11 +11,10 @@ public class PTra02_04 {
 		int d_num = 25;
 
 		// ★ d_num と d_num の合計をd_numに代入してください
-		d_num*=2;
+		d_num *= 2;
 
 		// ★ d_numの値を出力してください。
 		System.out.println(d_num);
-
 
 	}
 }

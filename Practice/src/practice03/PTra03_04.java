@@ -32,14 +32,32 @@ public class PTra03_04 {
 		 *
 		 * ※ プログラムは何行書いても良いです
 		 */
-		
-		if(num%4==0&&num%400==0) {
-			System.out.println("～年はうるう年です。");
-		}else if(num%100==0) {
-			System.out.println("～年はうるう年ではありません。");
-		}
-			
 
+		if (num % 4 == 0) {
+
+			// ただし100で割り切れたら・・・
+			if (num % 100 == 0) {
+
+				// さらに400で割り切れるか判定する
+				if (num % 400 == 0) {
+
+					// うるう年確定
+					System.out.println(num + "年はうるう年です。");
+				} else {
+
+					// 100で割り切れるが、400では割り切れないのでNG
+					System.out.println(num + "年はうるう年ではありません。");
+				}
+
+			} else {
+				// 割り切れない場合はうるう年確定
+				System.out.println(num + "年はうるう年です。");
+			}
+
+		} else {
+			// 4で割り切れない
+			System.out.println(num + "年はうるう年ではありません。");
+		}
 
 	}
 }

@@ -12,11 +12,8 @@ public class PTra01_02 {
 		System.out.println("Hello,world");
 		System.out.println("Hello,world");
 		System.out.println("Hello,world");
-		
-		
 
 		//  ★「Hello, world」と出力（コマンドプロンプトに表示）してください
-
 
 	}
 }

@@ -15,6 +15,6 @@ public class PTra02_03 {
 		int num2 = (20 + num1) * 2;
 
 		// 140が表示されること
-		System.out.println(num2);	// ※※ この行は修正しないでください
+		System.out.println(num2); // ※※ この行は修正しないでください
 	}
 }
