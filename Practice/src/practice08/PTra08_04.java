@@ -19,7 +19,7 @@ public class PTra08_04 {
 	}
 
 	public static void convertMessage(String str) {
-		System.out.println("「"+str+"」");
+		System.out.println("「" + str + "」");
 
 		return;
 

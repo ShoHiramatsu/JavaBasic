@@ -32,15 +32,20 @@ public class PTra08_05 {
 		int choice = scanner.nextInt();
 
 		// ★ 変数choiceの中が、1であれば四角形の面積を算出するメソッドを、2であれば三角形の面積を算出するメソッドを呼び出してください
+		double area = 0;
 		if (choice == 1) {
-			quadrangle(width, height);
+			area = quadrangle(width, height);
+			System.out.println("四角形の面積：" + area);
 		} else if (choice == 2) {
-			triangle(width, height);
+			area = triangle(width, height);
+			System.out.println("三角形の面積：" + area);
+		} else {
+			System.out.println("正しい値を入力してください");
 		}
 	}
 
 	public static double quadrangle(double x, double y) {
-		double  quadrangle = x * y;
+		double quadrangle = x * y;
 		System.out.println(quadrangle);
 		return quadrangle;
 	}

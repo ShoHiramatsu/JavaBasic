@@ -14,10 +14,8 @@ public class PTra07_03 {
 		char[] keyword = { '平', '島', '沼', '山', '森' };
 
 		// ★ 配列keywordに格納されている値を後ろから順番に全て表示してください
-		for (char i : keyword) {
-			System.out.println(i);
+		for (int i = keyword.length - 1; 0 <= i; i--) {
+			System.out.println(keyword[i]);
 		}
 	}
 }
-
-       
